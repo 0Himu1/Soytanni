@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    font-family: poppins;
+    background-color: rgb(24, 24, 24);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 100%;
+    background: url(../Himu\ 3.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.f24{
+    font-size: 24px;
+}
