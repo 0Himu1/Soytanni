@@ -17,6 +17,7 @@ p{
     font-weight: 700;
     line-height: 8px;
     background: url(../WhatsApp\ Image\ 2021-11-22\ at\ 5.18.53\ PM.jpeg);
+    background-repeat: no-repeat;
     background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,8 +32,8 @@ h1{
     color: #fff;
     position: absolute;
     bottom: 100px;
-    text-align: center;
-    margin-inline:20vh;
+    text-align: right-align;
+
     /* left: 50%; */
     /* transform: translateX(50%); */
 }
