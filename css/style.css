@@ -2,6 +2,8 @@ body{
     box-sizing: border-box;
     font-family: poppins;
     background-color: rgb(24, 24, 24);
+    height: 100vh;
+    overflow: hidden;
 }
 
 *{
@@ -10,19 +12,32 @@ body{
 }
 
 p{
-    font-size: 18px;
+    font-size: 6px;
     text-transform: uppercase;
-    font-weight: 800;
-    line-height: 100%;
+    font-weight: 700;
+    line-height: 6px;
+    background: url(../WhatsApp\ Image\ 2021-11-22\ at\ 5.18.53\ PM.jpeg);
     background-repeat: no-repeat;
-    background: url(../Himu\ 3.jpg);
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: contain;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .f24{
-    font-size: 24px;
+<<<<<<< HEAD
+
+=======
+    font-size: 8px;
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: 100px;
+    text-align: right-align;
+
+    /* left: 50%; */
+    /* transform: translateX(50%); */
+>>>>>>> gh-pages
 }
